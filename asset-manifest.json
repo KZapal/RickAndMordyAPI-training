@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/static/css/main.17a356f0.css",
+    "main.js": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/static/js/main.eaac1780.js",
+    "index.html": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/index.html",
+    "static/media/search.svg": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/static/media/search.c11921e9e0ed3525171d.svg",
+    "main.17a356f0.css.map": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/static/css/main.17a356f0.css.map",
+    "main.eaac1780.js.map": "/KZapal.goitacademy.github.io/RickAndMordyAPI-training/static/js/main.eaac1780.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17a356f0.css",
+    "static/js/main.eaac1780.js"
+  ]
+}
