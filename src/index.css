@@ -1,69 +1,31 @@
 @import-normalize;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
 }
-/* Reset margin, padding, and border */
 
 *,
 *::before,
 *::after {
+  box-sizing: inherit;
+}
+
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #212121;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Reset typography */
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol {
-  font-size: 100%;
-  font-weight: normal;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-/* Reset list styles */
 
-ul,
-ol {
-  list-style: none;
-}
-
-/* Reset hyperlink styles */
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Reset form styles */
-
-button,
-input,
-select,
-textarea {
-  background-color: transparent;
-  border: none;
-}
-
-button {
-  padding: 0;
-  cursor: pointer;
-}
-
-/* Reset table styles */
-
-table {
-  border-collapse: collapse;
-}
